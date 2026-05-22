@@ -1,0 +1,25 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de entorno y logs
+.env
+.env.*
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de compilación (Descomentar si deseas versionar la carpeta dist en la rama principal)
+dist/
+dist-ssr/
+
+# Archivos de sistema y editores
+.DS_Store
+.vscode/
+.idea/
+
+# ---------------------------------------------------------
+# Exclusiones específicas del Proyecto (Material Interno)
+# ---------------------------------------------------------
+agent/
+template/
